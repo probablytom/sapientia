@@ -1,0 +1,20 @@
+baseurl:
+title: Sapientia
+subtitle: Importance requires curation and rationality.
+author: Tom Wallis and his loved ones
+name: sapientia
+markdown: kramdown
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+permalink: /:title
+timezone: Europe/London
+excerpt_separator: <!-- excerpt -->  # you can specify your own separator, of course.
+exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile', 'UploadToGithub.Rakefile', 'README.md']
+post:
+  template: _post.txt
+  extension: md
+page:
+  template: _page.txt
+  extension: md
+editor: vim
+git:
+  branch: master
